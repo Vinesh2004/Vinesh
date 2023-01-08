@@ -34,11 +34,7 @@
   }
 }
 
-@media only screen and (min-device-height: 1070px) and (max-device-height: 1090px)  {
-  html {
-    transform: scale(0.8);
-  }
-}
+
 
 
 a.anchor {
