@@ -42,7 +42,7 @@ function download(file) {
 
   //creating an invisible element
   var element = document.createElement('a');
-  element.setAttribute('href', './PDF/ResumeVineshVivekanandPersonalWebsite.pdf');
+  element.setAttribute('href', './PDF/Vinesh_Vivekanand_Resume.pdf');
   element.setAttribute('download', file);
 
   // Above code is equivalent to
@@ -61,7 +61,7 @@ document.getElementById("ms-download")
 .addEventListener("click", function() {
   // Generate download of hello.txt 
   // file with some content
-  var filename = "Vinesh Resume.pdf";
+  var filename = "Vinesh_Vivekanand_Resume.pdf";
 
   download(filename);
 }, false);
