@@ -28,9 +28,15 @@
     
 }
 
-@media only screen and (min-width: 700px) and (max-device-width : 1024px)  {
+@media only screen and (min-width: 769px) and (max-device-width : 1024px)  {
   html {
     transform: scale(0.67);
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-device-width : 1075px)  {
+  html {
+    transform: scale(0.8);
   }
 }
 
