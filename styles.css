@@ -28,18 +28,11 @@
     
 }
 
-@media only screen and (min-width: 769px) and (max-device-width : 1024px)  {
+@media only screen and (min-device-width: 769px) and (max-device-width : 1024px)  {
   html {
     transform: scale(0.67);
   }
 }
-
-@media only screen and (min-width: 1025px) and (max-device-width : 1900px)  {
-  html {
-    transform: scale(0.8);
-  }
-}
-
 
 
 a.anchor {
