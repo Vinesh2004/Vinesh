@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav class="navbar">
+            <h1 id="navbar-logo"> </h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li>
+                    <form action="#home">
+                    <button style="--content: 'Home';" href="#home">
+                        <div class="left"></div>
+                            Home
+                        <div class="right"></div>
+                    </button>
+                    </form>
+                </li>
+                <li>
+                    <form action="#aboutme">
+                    <button style="--content: 'About Me';" href="#aboutme">
+                        <div class="left"></div>
+                            About Me
+                        <div class="right"></div>
+                    </button>
+                    </form>
+                </li>
+                <li>
+                    <form action="#portfolio">
+                    <button style="--content: 'Portfolio';" href="#portfolio">
+                        <div class="left"></div>
+                            Portfolio
+                        <div class="right"></div>
+                    </button>
+                    </form>
+                </li>
+                <li>
+                    <form action="#resume">
+                    <button style="--content: 'Resume';" href="#resume">
+                        <div class="left"></div>
+                            Resume
+                        <div class="right"></div>
+                    </button>
+                    </form>
+                </li>
+                <!-- <li><a href="#" class="nav-links">About Me</a></li>
+                <li><a href="#" class="nav-links">Portfolio</a></li>
+                <li><a href="#" class="nav-links">Resume</a></li> -->
+                <li>
+                    <form action="#contactme">
+                    <button style="--content: 'Contact Me';" , href="#contactme">
+                        <div class="left"></div>
+                            Contact Me
+                        <div class="right"></div>
+                    </button>
+                    </form>
+                </li>
+                <!-- <li><a href="#" class="nav-links nav-links-btn">Contact Me</a></li> -->
+            </ul>
+        </nav>
+    </div>
+    <section class="home section" id="home">
+        <div class="wrapper">
+            <div class="static-txt"> I am a </div>
+            <ul class="dynamic-txts">
+                <li><span>Developer</span></li>
+                <li><span>Designer</span></li>
+                <li><span>Engineer</span></li>
+                <li><span>Student</span></li>
+            </ul>
+            <div class="top-title">
+                <h2 id="title"> Hi, my name is</h2>
+            </div>
+            <div class="vinesh-title">
+                <h2>Vinesh </h2>
+                <h2>Vinesh </h2>
+            </div>
+            <div class="vivekanand-title">
+                <h2>Vivekanand </h2>
+                <h2>Vivekanand </h2>
+            </div>
+            
+            <img class="jump" width="200" src="./Photos/dino.png"/>
+            <img src="./Photos/robot-head.png" class="MushroomRotate" width="60" height="60" />
+            <img class="rocketlaunch" src="./Photos/ufo.gif">
+            <img src="./Photos/Vinesh_Vivekanand.png" class="VineshPhoto">   
+        </div>
+           
+        
+
+        <div class="avatar"></div>    
+
+        
+        <div class="area" >
+            <ul class="circlesback">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+        </div >
+
+
+    
+  
+
+
+
+
+        
+        
+        
+    </section> 
+
+    <div class="pacman">
+        <div class="pacman-top"></div>
+        <div class="pacman-bottom"></div>
+        <div class="feed"></div>
+    </div>
+
+    
+
+    
+    <a class="anchor" id="aboutme"></a>
+    <section class="AboutMe">
+        
+        <div class="patterns" >
+            <svg width="100%" height="100%">
+
+                        
+              <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
+               
+              
+             
+           <text x="50%" y="75%"  text-anchor="middle"  >
+             About Me
+           </text>
+           </svg>
+          </div>
+        
+                 
+        <div class="slideshow-container">
+
+            
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="./Photos/orb.png" style="width:100%; object-fit: cover;" height="400px" >
+                <div class="text">Caption Text</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="./Photos/PCbuilding1.jpg" style="width:100%; object-fit: cover;" height="400px">
+                <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="./Photos/coding.jpg" style="width:100%; object-fit: cover; " height="400px">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="./Photos/chessbot.JPG" style="width:100%; object-fit: cover;" height="400px">
+                <div class="text">Caption Three</div>
+            </div>
+        
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        
+        <div class= "aboutParagrraph">
+            <h1> I love to build things! <br></h1>
+            <p> I am currently a Mechatronics Engineering Student at the University of Waterloo. My passion has always revolved around robotics, programming, and web developement.  Since middle school I have completed all sorts of projects and explored numerous technologies ranging from EV3s to Arduinos. My long term goal has always been to invent or innovate a piece of technology that will be revolutionary and used in our everyday lives.   </p>
+        </div>
+
+         
+
+
+
+
+    </section>
+
+    <a class="anchorNonAbout" id="portfolio"></a>
+    <section class="PortfolioSection" >
+        <div class="patterns">
+            <svg width="100%" height="100%">
+
+                        
+              <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
+               
+              
+             
+           <text x="50%" y="75%"  text-anchor="middle"  >
+             Portfolio
+           </text>
+           </svg>
+          </div>
+        
+        <div class= "portfolioExplain">
+            <p> Hover or Click to learn more about my projects!</p>
+        </div>
+
+        <div class="container-all">
+            <a class="container" href="https://github.com/Vinesh2004/Chess-Bot" target="blank_">
+                <img src="./Photos/chessbot3.PNG" alt="port" height="320px">
+                 <span class="title">Autonomous Chessbot</span>
+                <span class="text">Used OpenCV to relay the change in positions of the pieces on the board. Constructed a XY gantry system to move the 3D printed chess pieces from underneath the board using magnets. </span>
+            </a>
+            <a class="container" href="https://github.com/Vinesh2004/V8-Roomba" target="blank_">
+                <img src="./Photos/v8.PNG" alt="port" height="320px">
+                 <span class="title">V8 Roomba</span>
+                <span class="text">Constructed an autonomous cleaning robot with 4-wheel drive that recieves commands through a radio reciever at the docking station. Designed and built a vaccum system to trap dirt.</span>
+            </a>
+            <a class="container" href="https://github.com/Vinesh2004/HTN2020-Magic-Mouse" target="blank_">
+                <img src="./Photos/magicmouse2.png" alt="port" height="320px">
+                 <span class="title">Magic Mouse</span>
+                <span class="text">Using one hand to control the mouse cursor on the computer screen and raising the other to make selections. Devleoped with Azure's Custom Vision service which allowed us to train a model capable of detecting hands from a webcam feed. </span>
+              </a>
+
+            <a class="container" href="https://github.com/Vinesh2004/JamHacks-Work-Flow" target="blank_">
+              <img src="./Photos/workflow4.PNG" alt="port" height="320px">
+              <span class="title">Work Flow</span>
+              <span class="text"> Tracks which apps and processes are running, and determines your productivity based on a predefined list of productive and non-productive apps. When truly productive for 1 hour, it notifies users to take a break. Uses PyAutoGUI and Firebase.   </span>
+            </a>
+            <a class="container" href="https://github.com/Vinesh2004/The-DOT-Project" target="blank_">
+                <img src="./Photos/dot.PNG" height="320px">
+                 <span class="title">The Dot Project</span>
+                <span class="text">Provided users with a survey about their mental health and accurately determines the severity of their stress, anxiety, etc using Python. Stores data using Firebase and plots such severity in a heat map style diagram.</span>
+            </a>
+            <a class="container" href="https://github.com/Vinesh2004/Me-Check" target="blank_">
+                <img src="./Photos/meCheck.PNG" alt="port" height="320px">
+                 <span class="title">Me+Check</span>
+                <span class="text">Trained an nlp model to recognize a user's mood using the CoHere API. Backend comunicates with a server where input is saved to display graphs and charts of user's moods throughout the week. </span>
+            </a>
+            <a class="container" href="https://github.com/Vinesh2004/Sumo-Bot" target="blank_">
+                <img src="./Photos/sumo.JPEG" alt="port" height="320px">
+                 <span class="title">Sumo Robot</span>
+                <span class="text">Incorporated Ultransonic, IR, and QTI sensors on an Arduino sumo robot in order to stay in the black sumo ring while also detecting other robots and pushing them out of the ring. </span>
+            </a>
+            <a class="container" href="https://devpost.com/software/the-orb" target="blank_">
+                <img src="./Photos/orb3.jpg" alt="port" height="320px">
+                 <span class="title">The Orb</span>
+                <span class="text">Sleek and ergonomic 3D printed lamp that activates as you rotate it. Was a 1st place winner at FraserHacks. Uses LED strips, Arduinos and a Gyro Sensor</span>
+              </a>
+            <a class="container" href="https://github.com/Vinesh2004/ESQ-Sound-Vision" target="blank_">
+              <img src="./Photos/ESQ.jpg" alt="port" height="320px">
+               <span class="title">Sound Vision</span>
+              <span class="text"> Created a Universal design project for those who work in the dark or are blind. Ultransonic sensor detects objects in front of user and activates 1 of 3 buzzers placed at 45,90 or 135 degrees when the object is 1m away at such angle.</span>
+            </a>
+            <a class="container" href="https://github.com/Vinesh2004/McMaster-Venture-Academy-AI-Club" target="blank_">
+              <img src="./Photos/machinelearning.PNG" alt="port" height="320px">
+               <span class="title">Venture Academy AI</span>
+              <span class="text">A McMaster ran program where I learned the basics of articial intelligence by completing projects revlving around lane detection, object classification and data predictions</span>
+            </a>
+
+            <a class="container" href="https://theroyals.vercel.app/" target="blank_">
+                <img src="./Photos/vex.JPG" alt="port" height="320px">
+                 <span class="title">VEX Robotics</span>
+                <span class="text">Collaborated with a team of engineers to design, CAD and build a 2ft³ robot. Incorporated drivetrains, lifts, intake rollers and projectile launchers in 3 seasons of robot iterations. </span>
+            </a>
+            <a class="container" href="https://github.com/Vinesh2004/Processing--CrossyRoadsGame" target="blank_">
+                <img src="./Photos/crossyroads.PNG" alt="port" height="320px">
+                 <span class="title">Processing Game</span>
+                <span class="text">Used Processing to create the famous game Crossy Roads, a game where a player must dodge incoming traffic to earn points.</span>
+            </a>
+        </div>
+    </section>
+
+
+    <section class="ResumeSection">
+        <a class="anchorresume" id="resume"></a>
+        
+        <div class="resumepatterns">
+            <svg width="100%" height="100%">
+
+                        
+              <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
+               
+              
+             
+           <text x="50%" y="75%"  text-anchor="middle"  >
+             Resume
+           </text>
+           </svg>
+          </div>
+        
+        <div class= "resumeExplain">
+            <p> Click the button below to download my resume!</p>
+        </div> 
+
+        <div class="iframe-container">   
+            <iframe src="./PDF/Vinesh_Vivekanand_Resume.pdf" width="50%" height="1126px" style="margin-bottom: 150px; padding: 0px; box-shadow: 15px 15px 5px #212329;"></iframe>
+        </div> 
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div id="ms-container">
+                    <label for="ms-download" >
+                            <div class="ms-content">
+                                <div class="ms-content-inside">
+                                    <input type="checkbox" id="ms-download" />
+                                    <div class="ms-line-down-container">
+                                        <div class="ms-line-down"></div>
+                                    </div>
+                                    <div class="ms-line-point"></div>
+                                </div>
+                            </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    
+
+
+    <section class="ContactMe" id="contactme">
+        <a class="contact" id="contact"></a>
+        <div class="patterns">
+            <svg width="100%" height="100%">
+
+                        
+              <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
+               
+              
+             
+           <text x="50%" y="75%"  text-anchor="middle"  >
+             Contact Me
+           </text>
+           </svg>
+          </div>
+        
+
+        <div class="body-contact">
+            <div class="contact-wrapper">
+                <a class="icon facebook" href="mailto: vivekanand.vinesh@gmail.com" target="blank_" style="text-decoration: none;">
+                <div class="tooltip">Email</div>
+                <span><i class="fas fa-envelope"></i></span>
+                </a>
+
+
+                <a class="icon twitter" href="https://www.linkedin.com/in/vinesh-vivekanand-132479214/" target="blank_" style="text-decoration: none;">
+                <div class="tooltip">Linkedin</div>
+                <span><i class="fab fa-linkedin-in"> </i></span>
+                </a>
+
+                <a class="icon instagram" href="https://www.instagram.com/vineshv_/" target="blank_" style="text-decoration: none;">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram"></i></span>
+                </a>
+
+
+                <a class="icon github" href="https://github.com/Vinesh2004" target="blank_" style="text-decoration: none;">
+                <div class="tooltip">Github</div>
+                <span><i class="fab fa-github"></i></span>
+                </a>
+
+                <!--
+                <div class="icon youtube">
+                <div class="tooltip">Youtube</div>
+                <span><i class="fab fa-youtube"></i></span>
+                </div>
+                -->
+            </div>
+
+
+            <!-- <div class="contact-email">
+                <img src="./Photos/email4.png" width="50">
+                <h1> Feel free to also get in contact with me through my gmail:  </h1>  
+                <h2 style="font-size:30px;color:brown;"> vivekanand.vinesh@gmail.com</h2>
+            </div> -->
+
+            <div class="contact-copyright">
+                <h1>© Copyright 2022, Vinesh Vivekanand</h1>
+            </div>
+            
+
+
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="script.js">
+        </script>
+</body>
+
+</html>
