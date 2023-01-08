@@ -30,7 +30,7 @@
 
 @media only screen and (min-device-height: 1190px) and (max-device-height: 1210px)  {
   html {
-    transform: scale(0.67);
+    zoom: 0.67;
   }
 }
 
