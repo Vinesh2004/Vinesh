@@ -30,7 +30,7 @@
 
 @media only screen and (min-width: 700px) and (max-device-width : 1024px)  {
   html {
-    zoom: .33;
+    transform: scale(0.67);
   }
 }
 
